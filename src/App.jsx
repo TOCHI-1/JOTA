@@ -32,7 +32,7 @@ function App() {
           <p className=""> Journaling is a practice that involves regularly expressing gratitude and appreciation for the positive aspects of life. This simple yet powerful habit has been associated with numerous positive effects on mental, emotional, and even physical well-being.</p>
         </div>
        
-        <section className="grid grid-cols-1 grid-rows-4 mt-[2em] bg-[#E9EDC9]   md:grid-cols-2 md:bg-[#F5EBE0] md:gap-x-[10%] md:grid-cols-[45%_45%] md:w-[90%] lg:w-[80%] xl:w-[55%] mx-auto "> 
+        <section className="grid grid-cols-1 grid-rows-4 mt-[2em] bg-[#E9EDC9]   md:grid-cols-2 md:bg-[#F5EBE0] md:gap-x-[10%] md:grid-cols-[45%_45%] md:w-[90%] lg:w-[80%] xl:w-[60%] mx-auto "> 
           <article className="bg-[#CCD5AE] items-center p-[1em] md:oder-1">
             <h3 className="!text-[15px] font-bold mt-[1em]">Enhanced Well-Being</h3>
             <p className="!text-[15px] mt-[1em] ">Gratitude journaling has been linked to increased overall well-being. By focusing on positive experiences and acknowledging them, individuals may experience a greater sense of life satisfaction.</p>
@@ -58,7 +58,7 @@ function App() {
         </section>
         
       </main>
-      <footer className="bg-[#D4A373] mt-[2em] ">
+      <footer className="bg-[#D4A373] mt-[2em] px-[30px]">
         <div className=" md:max-w-[500px] mx-auto m-[4em]">
         <img src={Embark} className="h-[150px] mx-auto mt-[2.5em]" alt="" />
         <p className="!text-[16px] mt-[1em] text-center">"Embark on a transformative journey of self-discovery and positivity. Join us on GratitudeGrove, where each entry is a step toward a brighter, more grateful tomorrow. Start your journaling journey today and embrace the power of gratitude to uplift your spirit and enrich your life."</p>
