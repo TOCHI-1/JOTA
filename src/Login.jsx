@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from './assets/logo.svg' 
 import { Link } from 'react-router-dom'
+import MyButtons from './Button'
 
 
 const Login = () => {
@@ -22,7 +23,9 @@ const Login = () => {
                 
              </form>
              <p className='mt-[1em] text-right'>Forgot password ?</p>
-             <p className='mt-[1em] '>New to JOTA? <Link className='font-bold'> Sign Up </Link></p>
+             <p className='mt-[1em] text-center '>New to JOTA? <Link className='font-bold'> Sign Up </Link></p>
+             <MyButtons text="Submit" className=' bg-[#7da37d] my-[1em] mx-auto '/>
+
 
 
             
