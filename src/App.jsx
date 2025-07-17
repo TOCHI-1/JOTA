@@ -22,7 +22,7 @@ function App() {
           <p className="!text-[12px] text-center  md:w-[516px] mx-auto ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae .</p>
         </div>
         <div className=" row-span-2 order-2  flex flex-col justify-center gap-[20%] md:order-3  md:flex-row md:w-fit md:mx-auto md:gap-[10px]  items-center ">
-        <MyButtons text="Sign up" className="bg-[#F5EBE0] "/>
+        <MyButtons text="Sign up" path="/Signup" className="bg-[#F5EBE0] "/>
         <MyButtons text="Login" path="/login" className="bg-[#A98467] text-white "/>
           
         </div>
