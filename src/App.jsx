@@ -2,6 +2,7 @@
 import Logo from "./assets/logo.svg"
 import Embark from "./assets/Embark.svg"
 import { Link } from "react-router-dom"
+import MyButtons from "./Button"
 
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
           <p className="!text-[12px] text-center  md:w-[516px] mx-auto ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae .</p>
         </div>
         <div className=" row-span-2 order-2  flex flex-col justify-center gap-[20%] md:order-3  md:flex-row md:w-fit md:mx-auto md:gap-[10px]  items-center ">
-          <Link className="bg-[#F5EBE0] rounded-[50px]  min-w-[121px]  min-h-[32px]  text-center items-center pt-1 ">Sign Up</Link>
-          <Link to={"/Login"} className="bg-[#A98467] rounded-[50px]  text-white  min- w-[121px]  min-h-[32px] text-center pt-1 ">Log in</Link>
+        <MyButtons text="Sign up" className="bg-[#F5EBE0] "/>
+        <MyButtons text="Login" path="/login" className="bg-[#A98467] text-white "/>
+          
         </div>
 
        </section>
